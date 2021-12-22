@@ -4,7 +4,7 @@
       <li
         v-for="dish of dishes"
         :key="dish.name"
-        class="p-2 border-black border my-2 w-5/12 mx-2"
+        class="p-2 border-black border my-2 w-3/12 mx-8"
       >
         <h1 class="text-5xl font-bold">Nutrition Facts</h1>
         <h1 class="text-3xl font-bold">{{ dish.name }}</h1>
@@ -79,20 +79,20 @@ export default {
           influence: "Yes.",
         },
         {
-          name: "Self Government",
+          name: "Self Government: Ice Cream Sundae",
           explanation:
-            "A system in which a group of randomly selected people decides a court case.",
-          us: "12 citizens over 18 serve for one trial. They must come to the trial.",
+            "Government of a country by its own people",
+          us: "Yes.",
           influence:
-            "Limitless male jurors that serve for a year. They come to a simple majority.",
+            "Yes.",
         },
         {
           name: "Rule of Law: Brownie with Ice Cream",
           explanation:
-            "A system in which a group of randomly selected people decides a court case.",
-          us: "12 citizens over 18 serve for one trial. They must come to the trial.",
+            "A society in which everyone has agreed to follow a set of rules.",
+          us: "Yes.",
           influence:
-            "Limitless male jurors that serve for a year. They come to a simple majority.",
+            "Yes in Mayflower Compact.",
         },
       ],
     };

@@ -29,7 +29,6 @@ export default {
   methods: {
     add() {
       this.$store.commit('cart/add',cyrb53(this.dish.name) )
-
     }
   }
 };

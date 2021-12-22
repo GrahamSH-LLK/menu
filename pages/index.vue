@@ -85,16 +85,16 @@ export default {
           price: 12,
         },
         {
-          name: "Self Government",
+          name: "Self Government: Ice Cream Sundae",
           description:
             "This brownie with vanilla ice cream has gone before the best judge- and was sentenced to be served. We knew that our brownie filled with chocolate chips would win them over.",
           price: 14,
         },
         {
-          name: "Rule of Law: Brownie with Ice Cream",
+          name: "Rule of Law: No Dessert",
           description:
-            "This brownie with vanilla ice cream has gone before the best judge- and was sentenced to be served. We knew that our brownie filled with chocolate chips would win them over.",
-          price: 14,
+            "Everyone agrees to follow one law: no dessert in January. Just imagine you're eating another of our delicious desserts and you'll be all set- and thinner for it!",
+          price: 0,
         },
 
 
